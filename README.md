@@ -24,10 +24,12 @@ Developed a 12 by 12 Sudoku Game with x8086 Assembly Language to test out my x86
 As addressed within the Project Overview, this project is comprised of 144 Cells based on the standard rules of Sudoku.
 As such, you can expect to play a standard game of 12 x 12 Sudoku, based on the 5 default boards already provided.
 Once you run the .EXE file, you can exit the game by pressing (q) or check the current status of the board by pressing (p).
+In addition, numbers, such as 10, 11, and 12, are expressed in Hexadecimal, in the form of A, B, and C, respectively.
 
 
 ## Known Bugs
 1) Changing the values of the yellow characters engenders an erroneous game-state.
+2) Uppercase letter inputs are not registered (A, B, C).
 
 ## Prerequisities
 A Working Knowledge of x8086 Assembly Language to understand the instructions presented in the .asm file.
